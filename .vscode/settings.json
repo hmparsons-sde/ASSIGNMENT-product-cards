@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "html.format.preserveNewLines": false,
+  "json.format.enable": true,
+  "html.format.indentInnerHtml": true,
+  "workbench.tree.indent": 4,
+  "editor.autoIndent": "advanced"
+}

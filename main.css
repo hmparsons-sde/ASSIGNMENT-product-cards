@@ -3,3 +3,35 @@
 body {
     background-color: rgb(125, 157, 223);
 }
+
+.products-container {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.product-ski {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.product-ski img {
+    max-width: 50%;
+}
+
+.product-gloves {
+    border: 1px solid black;
+    max-width: 30%;
+}
+
+.product-gloves img {
+    max-width: 50%;
+}
+
+.product-ski-boots {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.product-ski-boots img {
+    max-width: 50%;
+}
