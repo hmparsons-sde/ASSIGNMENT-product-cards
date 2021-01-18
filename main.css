@@ -1,18 +1,53 @@
 /*JID SETUP for Product Cards main.css */
 
+.dark-primary-color {
+    background: #0097A7;
+}
+
+.default-primary-color {
+    background: #00BCD4;
+}
+
+.light-primary-color {
+    background: #B2EBF2;
+}
+
+.text-primary-color {
+    color: #FFFFFF;
+}
+
+.accent-color {
+    background: #009688;
+}
+
+.primary-text-color {
+    color: #212121;
+}
+
+.secondary-text-color {
+    color: #757575;
+}
+
+.divider-color {
+    border-color: #BDBDBD;
+}
+
 body {
-    background-color: rgb(125, 157, 223);
+    background: #B2EBF2;
+    color: #212121;
 }
 
 .products-container {
     display: flex;
     flex-flow: wrap;
+    color: #212121;
 }
 
 .product-ski {
     box-shadow: 20px;
     border: 1px solid black;
     width: 30%;
+    color: #212121;
 }
 
 .imageContainer {
@@ -28,6 +63,7 @@ body {
 .product-gloves {
     border: 1px solid black;
     max-width: 30%;
+    color: #212121;
 }
 
 .product-gloves img {
@@ -37,6 +73,7 @@ body {
 .product-ski-boots {
     border: 1px solid black;
     width: 30%;
+    color: #212121;
 }
 
 .product-ski-boots img {
@@ -47,15 +84,21 @@ body {
     align-content: flex-end;
     border: 1px solid lightblue;
     text-align: center;
+    color: #FFFFFF;
+    background: #00BCD4;
 }
 
 .specifications {
     font-weight: bold;
     max-width: 100%;
+    color: #212121;
+    /* background: #00BCD4; */
 }
 
 .avalilability {
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-content: stretch;
+    color: #212121;
+    background: #00BCD4;
 }
