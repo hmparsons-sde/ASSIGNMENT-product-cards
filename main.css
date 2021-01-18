@@ -10,8 +10,15 @@ body {
 }
 
 .product-ski {
+    box-shadow: 20px;
     border: 1px solid black;
     width: 30%;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .product-ski img {
@@ -34,4 +41,21 @@ body {
 
 .product-ski-boots img {
     max-width: 50%;
+}
+
+.productHeader {
+    align-content: flex-end;
+    border: 1px solid lightblue;
+    text-align: center;
+}
+
+.specifications {
+    font-weight: bold;
+    max-width: 100%;
+}
+
+.avalilability {
+    width: 100%;
+    border: 1px solid red;
+    align-content: stretch;
 }
