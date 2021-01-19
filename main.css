@@ -50,11 +50,13 @@ body {
 }
 
 .productHeader {
-    align-content: flex-end;
     border: 1px solid lightblue;
     text-align: center;
     color: #FFFFFF;
     background: #00BCD4;
+    flex-wrap: wrap;
+    /* max-height: 10%; */
+    position: relative;
 }
 
 .specifications {
@@ -68,6 +70,19 @@ body {
     align-content: stretch;
     color: #212121;
     background: #00BCD4;
+}
+
+
+/****Note*** 
+You have to have and position relative on the parent 
+if you want to have and a position absolute on a child */
+
+.productHeader img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 75px;
+    height: 75px;
 }
 
 
