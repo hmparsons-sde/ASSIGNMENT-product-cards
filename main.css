@@ -1,0 +1,138 @@
+/*JID SETUP for Product Cards main.css */
+
+/*
+***NOTE*** 
+$desktop:1200px;
+$laptop:1024;
+$tablet:768;
+$phone:480;
+*/
+
+body {
+    background: #BDBDBD;
+    color: #212121;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+@media all and (max-width: 1200px) and (min-width: 768px) {
+    body {
+        background: #FFFFFF;
+    }
+}
+
+@media all and (max-width: 768px) and (min-width: 480px) {
+    body {
+        background: #0097A7;
+    }
+}
+
+@media all and (max-width: 480px) and (min-width: 0px) {
+    body {
+        background: #B2EBF2;
+    }
+}
+
+.products-container {
+    display: flex;
+    flex-flow: wrap;
+    color: #212121;
+    margin: 10px;
+}
+
+.product-ski {
+    box-shadow: 20px;
+    border: 1px solid black;
+    width: 30%;
+    color: #212121;
+    margin: 10px;
+    border-radius: 10px;
+    background: #B2EBF2;
+    min-width: 200px;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #757575;
+}
+
+.product-ski img {
+    max-width: 50%;
+}
+
+.product-gloves {
+    border: 1px solid black;
+    max-width: 30%;
+    color: #212121;
+    margin: 10px;
+    border-radius: 10px;
+    background: #B2EBF2;
+    min-width: 200px;
+}
+
+.product-gloves img {
+    max-width: 50%;
+}
+
+.product-ski-boots {
+    border: 1px solid black;
+    width: 30%;
+    color: #212121;
+    margin: 10px;
+    border-radius: 10px;
+    background: #B2EBF2;
+    min-width: 200px;
+}
+
+.product-ski-boots img {
+    max-width: 50%;
+}
+
+.productHeader {
+    border: 1px solid lightblue;
+    text-align: center;
+    color: #FFFFFF;
+    background: #00BCD4;
+    flex-wrap: wrap;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+}
+
+.specifications {
+    font-weight: bold;
+    max-width: 100%;
+    color: #212121;
+    font-size: 75%;
+    flex-wrap: wrap;
+}
+
+.specifications h2 {
+    flex-wrap: wrap;
+    font-size: 100%;
+}
+
+.avalilability {
+    width: 100%;
+    align-content: stretch;
+    color: #212121;
+    background: #00BCD4;
+}
+
+.pricing {
+    font-size: 75%;
+    flex-wrap: wrap;
+}
+
+
+/****Note*** 
+You have to have and position relative on the parent 
+if you want to have and a position absolute on a child */
+
+.productHeader img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 75px;
+    height: 75px;
+}
