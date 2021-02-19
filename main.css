@@ -1,6 +1,5 @@
 /*JID SETUP for Product Cards main.css */
 
-
 /*
 ***NOTE*** 
 $desktop:1200px;
@@ -137,51 +136,3 @@ if you want to have and a position absolute on a child */
     width: 75px;
     height: 75px;
 }
-
-
-/*These is a fonts reference 
-https://fonts.google.com/ */
-
-
-/*These are the given pallet colors for reference 
-https://www.materialpalette.com/download.css/cyan/teal */
-
-
-/* .dark-primary-color {
-    background: #0097A7;
-} */
-
-
-/* .default-primary-color {
-    background: #00BCD4;
-} */
-
-
-/* .light-primary-color {
-    background: #B2EBF2;
-} */
-
-
-/* .text-primary-color {
-    color: #FFFFFF;
-} */
-
-
-/* .accent-color {
-    background: #009688;
-} */
-
-
-/* .primary-text-color {
-    color: #212121;
-} */
-
-
-/* .secondary-text-color {
-    color: #757575;
-} */
-
-
-/* .divider-color {
-    border-color: #BDBDBD;
-} */
