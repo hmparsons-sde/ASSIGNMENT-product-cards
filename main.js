@@ -1,1 +1,0 @@
-console.log("JID SETUP for Product Cards");
